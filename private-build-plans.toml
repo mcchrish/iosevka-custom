@@ -4,6 +4,7 @@ spacing = "term"
 serifs = "slab"
 noCvSs = true
 exportGlyphNames = false
+noLigation = true
 
   [buildPlans.IosevkaCustom.variants]
   inherits = "ss08"
