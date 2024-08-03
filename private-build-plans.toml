@@ -64,7 +64,8 @@ noLigation = false
     percent = "rings-continuous-slash"
 
     [buildPlans.IosevkaCustom.variants.italic]
-    a = "single-storey-serifed"
+    a = "single-storey-tailed"
+    i = "tailed-serifed"
     f = "tailed"
 
 [buildPlans.IosevkaSlabCustom]
@@ -116,7 +117,11 @@ widths.inherits = "buildPlans.IosevkaCustom"
     percent = "rings-continuous-slash"
 
     [buildPlans.IosevkaSlabCustom.variants.italic]
-    a = "single-storey-serifed"
+    a = "single-storey-tailed"
+    i = "tailed-serifed"
     f = "tailed"
+    p = "eared-motion-serifed"
+    q = "straight-serifless"
     s = "unilateral-serifed"
+    u = "toothless-rounded-motion-serifed"
     z = "curly-top-serifed"
