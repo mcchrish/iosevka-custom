@@ -56,6 +56,9 @@ noLigation = false
     l = "serifed-semi-tailed"
     m = "short-leg-serifless"
     u = "toothless-rounded-serifless"
+    tittle = "square"
+    diacritic-dot = "square"
+    punctuation-dot = "square"
     underscore = "above-baseline"
     caret = "low"
     paren = "flat-arc"
@@ -65,6 +68,7 @@ noLigation = false
 
     [buildPlans.IosevkaCustom.variants.italic]
     a = "single-storey-tailed"
+    e = "rounded"
     i = "tailed-serifed"
     f = "tailed"
 
@@ -109,6 +113,9 @@ widths.inherits = "buildPlans.IosevkaCustom"
     l = "serifed-semi-tailed"
     m = "short-leg-serifed"
     u = "toothless-rounded-serifed"
+    tittle = "square"
+    diacritic-dot = "square"
+    punctuation-dot = "square"
     underscore = "above-baseline"
     caret = "low"
     paren = "flat-arc"
@@ -118,6 +125,7 @@ widths.inherits = "buildPlans.IosevkaCustom"
 
     [buildPlans.IosevkaSlabCustom.variants.italic]
     a = "single-storey-tailed"
+    e = "rounded"
     i = "tailed-serifed"
     f = "tailed"
     p = "eared-motion-serifed"
