@@ -1,15 +1,102 @@
 [buildPlans.IosevkaCustom]
 family = "Iosevka Custom"
 spacing = "term"
-serifs = "slab"
+serifs = "sans"
 noCvSs = true
-exportGlyphNames = false
-noLigation = true
+exportGlyphNames = true
+noLigation = false
+
+  [buildPlans.IosevkaCustom.widths.Normal]
+  shape = 548
+  menu = 5
+  css = "normal"
+
+  [buildPlans.IosevkaCustom.weights.regular]
+  shape = 425
+  menu = 400
+  css = 400
+
+  [buildPlans.IosevkaCustom.weights.semibold]
+  shape = 600
+  menu = 600
+  css = 600
+
+  [buildPlans.IosevkaCustom.weights.bold]
+  shape = 700
+  menu = 700
+  css = 700
+
+  [buildPlans.IosevkaCustom.metricOverride]
+  xHeight = 550
+
+  [buildPlans.IosevkaCustom.ligations]
+  enables = [
+    "arrow-l",
+    "arrow-r",
+    "arrow-lr",
+    "trig",
+    "ltgt-diamond-tag",
+    "ltgt-slash-tag",
+    "slash-asterisk",
+    "html-comment"
+  ]
 
   [buildPlans.IosevkaCustom.variants]
   inherits = "ss08"
 
     [buildPlans.IosevkaCustom.variants.design]
+    two = "straight-neck-serifless"
+    three = "flat-top-serifless"
+    four = "semi-open-serifless"
+    five = "oblique-flat-serifless"
+    six = "straight-bar"
+    seven = "curly-serifless-crossbar"
+    nine = "straight-bar"
+    zero = "tall-slashed-cutout"
+    l = "serifed-semi-tailed"
+    m = "short-leg-serifless"
+    u = "toothless-rounded-serifless"
+    underscore = "above-baseline"
+    caret = "low"
+    paren = "flat-arc"
+    brace = "curly-flat-boundary"
+    dollar = "through"
+    percent = "rings-continuous-slash"
+
+    [buildPlans.IosevkaCustom.variants.italic]
+    a = "single-storey-serifed"
+    f = "tailed"
+
+[buildPlans.IosevkaSlabCustom]
+family = "Iosevka Slab Custom"
+spacing = "term"
+serifs = "slab"
+noCvSs = true
+exportGlyphNames = true
+noLigation = false
+
+weights.inherits = "buildPlans.IosevkaCustom"
+widths.inherits = "buildPlans.IosevkaCustom"
+
+  [buildPlans.IosevkaSlabCustom.metricOverride]
+  xHeight = 550
+
+  [buildPlans.IosevkaSlabCustom.ligations]
+  enables = [
+    "arrow-l",
+    "arrow-r",
+    "arrow-lr",
+    "trig",
+    "ltgt-diamond-tag",
+    "ltgt-slash-tag",
+    "slash-asterisk",
+    "html-comment"
+  ]
+
+  [buildPlans.IosevkaSlabCustom.variants]
+  inherits = "ss08"
+
+    [buildPlans.IosevkaSlabCustom.variants.design]
     two = "straight-neck-serifed"
     three = "flat-top-serifed"
     four = "semi-open-serifed"
@@ -28,7 +115,7 @@ noLigation = true
     dollar = "through"
     percent = "rings-continuous-slash"
 
-    [buildPlans.IosevkaCustom.variants.italic]
+    [buildPlans.IosevkaSlabCustom.variants.italic]
     a = "single-storey-serifed"
     f = "tailed"
     s = "unilateral-serifed"
