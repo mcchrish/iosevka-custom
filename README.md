@@ -4,7 +4,7 @@
 - Inherits Pragmata Pro variant
 - Higher xHeight
 - Slightly thicker regular width
-- Cherry-picked letter variants inspired from various programming fonts
+- Cherry-picked letter variants inspired from various programming fonts and also some personal tastes
 
 ## Sans
 <img width="1281" alt="Screenshot 2024-08-03 at 13 55 47" src="https://github.com/user-attachments/assets/d2d72afa-debd-4966-90f2-4563e4ad7778">
