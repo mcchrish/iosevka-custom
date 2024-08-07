@@ -1,35 +1,35 @@
-[buildPlans.IosevkaCustom]
-family = "Iosevka Custom"
+[buildPlans.ZenbonesMono]
+family = "Zenbones Mono"
 spacing = "term"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = true
 noLigation = false
 
-  [buildPlans.IosevkaCustom.widths.Normal]
+  [buildPlans.ZenbonesMono.widths.Normal]
   shape = 548
   menu = 5
   css = "normal"
 
-  [buildPlans.IosevkaCustom.weights.regular]
+  [buildPlans.ZenbonesMono.weights.regular]
   shape = 425
   menu = 400
   css = 400
 
-  [buildPlans.IosevkaCustom.weights.semibold]
+  [buildPlans.ZenbonesMono.weights.semibold]
   shape = 600
   menu = 600
   css = 600
 
-  [buildPlans.IosevkaCustom.weights.bold]
+  [buildPlans.ZenbonesMono.weights.bold]
   shape = 700
   menu = 700
   css = 700
 
-  [buildPlans.IosevkaCustom.metricOverride]
+  [buildPlans.ZenbonesMono.metricOverride]
   xHeight = 550
 
-  [buildPlans.IosevkaCustom.ligations]
+  [buildPlans.ZenbonesMono.ligations]
   enables = [
     "arrow-l",
     "arrow-r",
@@ -41,10 +41,10 @@ noLigation = false
     "html-comment"
   ]
 
-  [buildPlans.IosevkaCustom.variants]
+  [buildPlans.ZenbonesMono.variants]
   inherits = "ss08"
 
-    [buildPlans.IosevkaCustom.variants.design]
+    [buildPlans.ZenbonesMono.variants.design]
     two = "straight-neck-serifless"
     three = "flat-top-serifless"
     four = "semi-open-serifless"
@@ -66,42 +66,45 @@ noLigation = false
     dollar = "through"
     percent = "rings-continuous-slash"
 
-    [buildPlans.IosevkaCustom.variants.italic]
+    [buildPlans.ZenbonesMono.variants.italic]
     a = "single-storey-tailed"
     e = "rounded"
     i = "tailed-serifed"
     f = "tailed"
 
-[buildPlans.IosevkaSlabCustom]
-family = "Iosevka Slab Custom"
+[buildPlans.ZenbonesSlabMono]
+family = "Zenbones Slab Mono"
 spacing = "term"
 serifs = "slab"
 noCvSs = true
 exportGlyphNames = true
 noLigation = false
 
-weights.inherits = "buildPlans.IosevkaCustom"
-widths.inherits = "buildPlans.IosevkaCustom"
+widths.inherits = "buildPlans.ZenbonesMono"
+ligations.inherits = "buildPlans.ZenbonesMono"
 
-  [buildPlans.IosevkaSlabCustom.metricOverride]
+  [buildPlans.ZenbonesSlabMono.metricOverride]
   xHeight = 550
 
-  [buildPlans.IosevkaSlabCustom.ligations]
-  enables = [
-    "arrow-l",
-    "arrow-r",
-    "arrow-lr",
-    "trig",
-    "ltgt-diamond-tag",
-    "ltgt-slash-tag",
-    "slash-asterisk",
-    "html-comment"
-  ]
+  [buildPlans.ZenbonesSlabMono.weights.regular]
+  shape = 400
+  menu = 400
+  css = 400
 
-  [buildPlans.IosevkaSlabCustom.variants]
+  [buildPlans.ZenbonesSlabMono.weights.semibold]
+  shape = 600
+  menu = 600
+  css = 600
+
+  [buildPlans.ZenbonesSlabMono.weights.bold]
+  shape = 700
+  menu = 700
+  css = 700
+
+  [buildPlans.ZenbonesSlabMono.variants]
   inherits = "ss08"
 
-    [buildPlans.IosevkaSlabCustom.variants.design]
+    [buildPlans.ZenbonesSlabMono.variants.design]
     two = "straight-neck-serifed"
     three = "flat-top-serifed"
     four = "semi-open-serifed"
@@ -123,11 +126,12 @@ widths.inherits = "buildPlans.IosevkaCustom"
     dollar = "through"
     percent = "rings-continuous-slash"
 
-    [buildPlans.IosevkaSlabCustom.variants.italic]
+    [buildPlans.ZenbonesSlabMono.variants.italic]
     a = "single-storey-tailed"
     e = "rounded"
     i = "tailed-serifed"
     f = "tailed"
+    m = "short-leg-top-left-and-bottom-right-serifed"
     p = "eared-motion-serifed"
     q = "straight-serifless"
     s = "unilateral-serifed"
